@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>HTML TABLE</title>
+    </head>
+    <body>
+        <!--caption,thead,tbody,tfoot-->
+        <table border="1" height="200" width="500">
+            <caption> <h1>COLUMN TYPE TABLE</h1></caption>  
+            <thead style="color:red;">
+            <tr>
+                <th>COLUMN-1</th>
+                <th>COLUMN-2</th>
+                <th>COLUMN-3</th>
+            </tr>
+        </thead>
+        <tbody style="color:green">
+            <tr>
+                <td>COl-1</td>
+                <td>COl-2</td>
+                <td>COl-3</td>
+            </tr>
+            <tr>
+                <td>COl-4</td>
+                <td>COl-5</td>
+                <td>COl-6</td>
+            </tr>
+            <tr>
+                <td>COl-7</td>
+                <td>COl-8</td>
+                <td>COl-9</td>
+            </tr>
+            </tbody>
+            <tfoot style="color:blue">
+                <tr>
+                    <th>COLUMN-1</th>
+                    <th>COLUMN-2</th>
+                    <th>COLUMN-3</th>
+                </tr>
+            </tfoot>
+        </table><br>
+        <!--table,table column,row,colspan,rowspan,caption-->
+        <table border="1" height="200" width="500">
+           <caption> <h1>ROW TYPE TABLE</h1></caption> 
+            <tr>
+                <th>ROW-1</th>
+                <td><img src="photo.jpg" height="200" width="400"></td>
+                <td colspan="2"><a href="https://www.google.com">Google</a></td>
+                
+            </tr>
+            <tr>
+                <th rowspan="2">ROW-2</th>
+                <td>COl-4</td>
+                <td>COl-5</td>
+                <td>COl-6</td>
+            </tr>
+            <tr>
+                
+                <td>COl-7</td>
+                <td>COl-8</td>
+                <td>COl-9</td>
+            </tr>
+        </table>
+        <!--NESTED TABLE-->
+        <table border="1">
+            <caption> <h1>NESTED TYPE TABLE</h1></caption>  
+            <thead style="color:red;">
+            <tr>
+                <th>COLUMN-1</th>
+                <th>COLUMN-2</th>
+                <th>COLUMN-3</th>
+            </tr>
+        </thead>
+        <tbody style="color:green">
+            <tr>
+                <td>COl-1</td>
+                <td>COl-2</td>
+                <td>COl-3</td>
+            </tr>
+            <tr>
+                <td>COl-4</td>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <td>COl-1</td>
+                            <td>COl-2</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>COl-3</td>
+                            <td>COl-4</td>
+                            
+                        </tr>
+                    </table>
+                </td>
+                <td>COl-6</td>
+            </tr>
+            <tr>
+                <td>COl-7</td>
+                <td>COl-8</td>
+                <td>COl-9</td>
+            </tr>
+            </tbody>
+            <tfoot style="color:blue">
+                <tr>
+                    <th>COLUMN-1</th>
+                    <th>COLUMN-2</th>
+                    <th>COLUMN-3</th>
+                </tr>
+            </tfoot>
+        </table><br>
+    </body>
+</html>
